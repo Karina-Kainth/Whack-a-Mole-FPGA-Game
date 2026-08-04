@@ -1,12 +1,17 @@
 # Whack-a-Mole on FPGA
 
-Whack-a-Mole is a hardware/digital-logic recreation of the classic arcade game, designed and implemented as a final project for **ECE241 – Digital Systems**. A "mole" spawns at a random position and for a random duration on a VGA display; the player has to hit the matching key on a PS/2 keyboard before it disappears. Score and a countdown timer are displayed live on the board's seven-segment displays.
+Whack-a-Mole is a hardware/digital-logic recreation of the classic arcade game that includes:
+- A "mole" spawning at a random position and for a random duration on a VGA display
+- A player that has to hit the matching key on a PS/2 keyboard before it disappears
+- A live score and a countdown timer displayed on the DE1-SoC board's seven-segment display
 
 ![Verilog](https://img.shields.io/badge/HDL-Verilog-blue)
 ![Platform](https://img.shields.io/badge/Platform-DE1--SoC%20%7C%20Cyclone%20V-orange)
 ![Tool](https://img.shields.io/badge/Toolchain-Intel%20Quartus%20Prime-red)
 
 ## Demo
+
+https://github.com/user-attachments/assets/3e716e27-234d-474e-ae8d-465323e5469d
 
 ## Controls
 
@@ -34,9 +39,9 @@ Whack-a-Mole is a hardware/digital-logic recreation of the classic arcade game, 
 
 ## Getting Started
 
-**Hardware:** Terasic DE1-SoC development board (Intel Cyclone V, `5CSEMA5F31C6`), VGA monitor, PS/2 keyboard.
+**Hardware:** DE1-SoC board (Intel Cyclone V, `5CSEMA5F31C6`), VGA monitor, PS/2 keyboard
 
-**Toolchain:** [Intel Quartus Prime](https://www.intel.com/content/www/us/en/software-kit/711791/intel-quartus-prime-lite-edition-design-software-version-20-1-1-for-linux.html) (project was built/tested on the Lite Edition).
+**Toolchain:** Intel Quartus Prime
 
 1. Clone the repo and open `Total Project/totalProject.qpf` in Quartus.
 2. Compile the project (`Processing → Start Compilation`).
@@ -46,4 +51,4 @@ Whack-a-Mole is a hardware/digital-logic recreation of the classic arcade game, 
 
 ## License
 
-This project was completed for academic purposes as part of ECE241 coursework. Feel free to reference or build on it for learning purposes.
+This project was completed for academic purposes as part of ECE241 coursework in collaboration with Prithika Paraneetharan.
