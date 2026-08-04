@@ -52,3 +52,4 @@ https://github.com/user-attachments/assets/3e716e27-234d-474e-ae8d-465323e5469d
 ## License
 
 This project was completed for academic purposes as part of ECE241 coursework in collaboration with Prithika Paraneetharan.
+Due to course policy, a majority of the code (that is not already online) is not publicly available. Please send me a message via email if you request to see any of the source code modules mentioned above. 
