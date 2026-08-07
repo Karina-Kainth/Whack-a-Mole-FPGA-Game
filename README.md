@@ -37,7 +37,7 @@ https://github.com/user-attachments/assets/3e716e27-234d-474e-ae8d-465323e5469d
 | `vga_controller` | `vga_adapter/vga_controller.v` | Generates HSYNC/VSYNC and pixel counters for a 640×480@60Hz signal |
 | `vga_pll` | `vga_adapter/vga_pll.v` | Converts the 50 MHz board clock to the 25 MHz VGA pixel clock |
 
-## Getting Started
+## Running & Installing
 
 **Hardware:** DE1-SoC board (Intel Cyclone V, `5CSEMA5F31C6`), VGA monitor, PS/2 keyboard
 
@@ -49,7 +49,7 @@ https://github.com/user-attachments/assets/3e716e27-234d-474e-ae8d-465323e5469d
 4. Connect a PS/2 keyboard and a VGA monitor to the board, then power on.
 5. Press `1`/`2`/`3` to pick a difficulty, `S` to start, and start whacking moles with `F1`–`F4`.
 
-## License
+## Licensing & Credits
 
 This project was completed for academic purposes as part of ECE241 coursework in collaboration with Prithika Paraneetharan.
 Due to course policy, a majority of the code is not publicly available. Please send me a message via email if you request to see any of the source code modules mentioned above. 
